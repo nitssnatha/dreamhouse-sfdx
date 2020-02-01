@@ -25,10 +25,6 @@ jobs:
               uses: forcedotcom/salesforcedx-actions@master
               with:
                   args: force:source:push
-            - name: Run tests
-              uses: forcedotcom/salesforcedx-actions@master
-              with:
-                  args: force:apex:test:run --codecoverage --resultformat=tap
             - name: Clean up scratch org
               uses: forcedotcom/salesforcedx-actions@master
               with:
