@@ -10,9 +10,6 @@
     <label>Dev Hub</label>
     <navType>Standard</navType>
     <tabs>Getting_Started</tabs>
-    <tabs>standard-ActiveScratchOrg</tabs>
-    <tabs>standard-ScratchOrgInfo</tabs>
-    <tabs>standard-NamespaceRegistry</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Dev_Hub_UtilityBar</utilityBar>
 </CustomApplication>
