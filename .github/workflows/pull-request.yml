@@ -1,26 +1,26 @@
 name: Deploy Changes to DevHub
 
 on:
-    pull_request:
-       types: [merged]
+  push:
+    branches:
+      - master
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v1
-            - name: Populate auth file with SFDX_URL secret
-              shell: bash
-              run: echo ${{ secrets.DEV_HUB_SFDXURL}} > ./SFDX_URL_STORE.txt
-            
-            - name: Authenticate against dev hub
-              uses: forcedotcom/salesforcedx-actions@master
-              with:
-                  args: force:auth:sfdxurl:store --sfdxurlfile=./SFDX_URL_STORE.txt --setalias=DevHub --setdefaultdevhubusername
-            
-            - name: Push to DevHub
-              uses: forcedotcom/salesforcedx-actions@master
-              with:
-                  args: sfdx force:source:deploy --targetusername DevHub --sourcepath force-app
-            
+    steps:
+      - uses: actions/checkout@v1
+      - name: Populate auth file with SFDX_URL secret
+        shell: bash
+        run: echo ${{ secrets.DEV_HUB_SFDXURL}} > ./SFDX_URL_STORE.txt
+
+      - name: Authenticate against dev hub
+        uses: forcedotcom/salesforcedx-actions@master
+        with:
+          args: force:auth:sfdxurl:store --sfdxurlfile=./SFDX_URL_STORE.txt --setalias=DevHub --setdefaultdevhubusername
+
+      - name: Push to DevHub
+        uses: forcedotcom/salesforcedx-actions@master
+        with:
+          args: sfdx force:source:deploy --targetusername DevHub --sourcepath force-app
