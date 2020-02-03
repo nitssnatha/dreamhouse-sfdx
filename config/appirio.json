@@ -1,0 +1,14 @@
+{
+    "cmc": {
+        "enabled": 1,
+        "products": [
+            ""
+        ]
+    },
+    "projectType": [
+        "legacy-salesforce",
+        "sfdx"
+    ],
+    "sourceBranchToClone": "master",
+    "sourceControlType": "git"
+}
