@@ -23,4 +23,4 @@ jobs:
       - name: Push to DevHub
         uses: forcedotcom/salesforcedx-actions@master
         with:
-          args: sfdx force:source:deploy --targetusername DevHub --sourcepath force-app
+          args: force:source:deploy --targetusername DevHub --sourcepath force-app
