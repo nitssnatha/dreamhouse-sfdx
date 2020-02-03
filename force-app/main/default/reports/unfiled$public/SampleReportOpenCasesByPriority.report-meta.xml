@@ -41,6 +41,10 @@
         <name>units</name>
         <value>h</value>
     </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
     <reportType>CaseList</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
