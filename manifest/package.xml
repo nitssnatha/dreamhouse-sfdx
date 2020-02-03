@@ -16,22 +16,12 @@
         <name>CleanDataService</name>
     </types>
     <types>
-        <members>Internal Zone</members>
-        <name>Community</name>
-    </types>
-    <types>
-        <members>CPQIntegrationUserApp</members>
-        <name>ConnectedApp</name>
-    </types>
-    <types>
         <members>Dev_Hub_Lightning</members>
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
-        <members>standard__Content</members>
         <members>standard__LightningBolt</members>
-        <members>standard__LightningInstrumentation</members>
         <members>standard__LightningSales</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
@@ -42,7 +32,6 @@
     <types>
         <members>Account</members>
         <members>AccountContactRole</members>
-        <members>ActiveScratchOrg</members>
         <members>Activity</members>
         <members>Asset</members>
         <members>AssetRelationship</members>
@@ -75,22 +64,16 @@
         <members>Image</members>
         <members>Individual</members>
         <members>Lead</members>
-        <members>NamespaceRegistry</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
         <members>OpportunityLineItem</members>
         <members>Order</members>
         <members>OrderItem</members>
-        <members>OrgMetricScanResult</members>
-        <members>OrgMetricScanSummary</members>
         <members>PartnerRole</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
-        <members>ProfileSkill</members>
-        <members>ProfileSkillEndorsement</members>
-        <members>ProfileSkillUser</members>
         <members>PromptAction</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
@@ -100,7 +83,6 @@
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
-        <members>ScratchOrgInfo</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>SocialPost</members>
@@ -111,11 +93,6 @@
         <members>TopicAssignment</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
-        <members>WorkBadge</members>
-        <members>WorkBadgeDefinition</members>
-        <members>WorkOrder</members>
-        <members>WorkOrderLineItem</members>
-        <members>WorkThanks</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -124,8 +101,6 @@
     </types>
     <types>
         <members>CompanyDashboards</members>
-        <members>CompanyDashboards/AdoptionDashboard</members>
-        <members>CompanyDashboards/CompanyPerformanceDashboard</members>
         <name>Dashboard</name>
     </types>
     <types>
@@ -177,7 +152,6 @@
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
-        <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
@@ -190,9 +164,6 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry</members>
         <members>Product2-Product Layout</members>
-        <members>ProfileSkill-Skill Layout</members>
-        <members>ProfileSkillEndorsement-Endorsement Layout</members>
-        <members>ProfileSkillUser-Skill User Layout</members>
         <members>QuickText-Quick Text Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
@@ -205,18 +176,12 @@
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-        <members>WorkBadge-Badge Received Layout</members>
-        <members>WorkBadgeDefinition-Badge Layout</members>
-        <members>WorkOrder-Work Order Layout</members>
-        <members>WorkOrderLineItem-Work Order Line Item Layout</members>
         <name>Layout</name>
     </types>
     <types>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewThisWeek</members>
-        <members>ActiveScratchOrg.All_Active_Scratch_Orgs</members>
-        <members>ActiveScratchOrg.My_Active_Scratch_Orgs</members>
         <members>Activity.MyActivities</members>
         <members>Activity.MyDelegatedActivities</members>
         <members>Activity.MyTeamsActivities</members>
@@ -230,7 +195,6 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
-        <members>CollaborationGroup.All_ChatterGroups</members>
         <members>Contact.AllContacts</members>
         <members>Contact.BirthdaysThisMonth</members>
         <members>Contact.NewThisWeek</members>
@@ -245,16 +209,10 @@
         <members>Contract.MyInApprovalContracts</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
-        <members>Event.MyRecentEvents</members>
-        <members>Event.MyTeamsRecentEvents</members>
-        <members>Event.MyTeamsUpcomingEvents</members>
-        <members>Event.MyUpcomingEvents</members>
-        <members>Event.TodaysAgenda</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
-        <members>NamespaceRegistry.All_Namespace_Registries</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
@@ -266,27 +224,15 @@
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
         <members>Product2.AllProducts</members>
-        <members>Recommendation.All_Recommendations</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
-        <members>ScratchOrgInfo.All_Scratch_Org_Infos</members>
-        <members>ScratchOrgInfo.My_Scratch_Org_Infos</members>
         <members>SocialPersona.AllSocialPersonas</members>
         <members>SocialPost.AllSocialPosts</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
-        <members>Task.CompletedTasks</members>
-        <members>Task.DelegatedTasks</members>
-        <members>Task.OpenTasks</members>
-        <members>Task.OverdueTasks</members>
-        <members>Task.RecurringTasks</members>
-        <members>Task.TodaysTasks</members>
-        <members>Task.UnscheduledTasks</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
-        <members>WorkOrder.All_WorkOrders</members>
-        <members>WorkOrder.My_WorkOrders</members>
         <name>ListView</name>
     </types>
     <types>
@@ -294,10 +240,6 @@
         <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
         <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
         <name>MatchingRule</name>
-    </types>
-    <types>
-        <members>Salesforce_DX</members>
-        <name>PermissionSet</name>
     </types>
     <types>
         <members>Admin</members>
@@ -435,9 +377,6 @@
         <members>TaskStatus</members>
         <members>TaskSubject</members>
         <members>TaskType</members>
-        <members>WorkOrderLineItemStatus</members>
-        <members>WorkOrderPriority</members>
-        <members>WorkOrderStatus</members>
         <name>StandardValueSet</name>
     </types>
     <types>
@@ -453,8 +392,6 @@
         <members>Order</members>
         <members>Solution</members>
         <members>Task</members>
-        <members>WorkOrder</members>
-        <members>WorkOrderLineItem</members>
         <name>TopicsForObjects</name>
     </types>
     <types>
@@ -464,7 +401,6 @@
         <members>Account.GoogleSearch</members>
         <members>Account.HooversProfile</members>
         <members>Account.YahooMaps</members>
-        <members>Campaign.ViewAllCampaignMembers</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Contact.GoogleMaps</members>
         <members>Contact.GoogleSearch</members>
