@@ -16,10 +16,6 @@
         <name>CleanDataService</name>
     </types>
     <types>
-        <members>Internal Zone</members>
-        <name>Community</name>
-    </types>
-    <types>
         <members>CPQIntegrationUserApp</members>
         <name>ConnectedApp</name>
     </types>
@@ -451,8 +447,6 @@
         <members>Order</members>
         <members>Solution</members>
         <members>Task</members>
-        <members>WorkOrder</members>
-        <members>WorkOrderLineItem</members>
         <name>TopicsForObjects</name>
     </types>
     <types>
@@ -651,10 +645,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>CleanDataService</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>Community</name>
     </types>
     <types>
@@ -742,10 +732,6 @@
     <types>
         <members>*</members>
         <name>EclairGeoData</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>EmailServicesFunction</name>
     </types>
     <types>
         <members>unfiled$public</members>
