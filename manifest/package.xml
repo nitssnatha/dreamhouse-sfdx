@@ -145,7 +145,6 @@
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
-        <members>CommunityMemberLayout-Community Member Layout</members>
         <members>Contact-Contact Layout</members>
         <members>ContactPointTypeConsent-Contact Point Type Consent Layout</members>
         <members>Contract-Contract Layout</members>
@@ -401,7 +400,6 @@
         <members>Account.GoogleSearch</members>
         <members>Account.HooversProfile</members>
         <members>Account.YahooMaps</members>
-        <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Contact.GoogleMaps</members>
         <members>Contact.GoogleSearch</members>
         <members>Contact.SendGmail</members>
