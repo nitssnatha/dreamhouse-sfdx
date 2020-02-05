@@ -44,7 +44,7 @@ jobs:
               uses: forcedotcom/salesforcedx-actions@master
               if: steps.check.outputs.isMatch == 'true'
               with:
-                  args: force:source:retrieve --manifest=manifest/package.xml --targetusername=scratch-org
+                  args: force:source:pull --targetusername=scratch-org
             - name: Commit Git changes
               if: steps.check.outputs.isMatch == 'true'
               shell: bash
