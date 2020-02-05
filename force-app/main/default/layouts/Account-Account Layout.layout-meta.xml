@@ -23,6 +23,10 @@
                 <behavior>Edit</behavior>
                 <field>This_is_checkbox__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Veer__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
