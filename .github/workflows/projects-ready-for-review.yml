@@ -18,6 +18,15 @@ jobs:
                   fromColumnName: IN PROGRESS
                   toColumnId: ${{ github.event.project_card.column_id }}
                   toColumnName: READY FOR REVIEW
+            - name: Rerun the In Progress Check
+              id: check1
+              uses: nitssnatha/salesforcedx-kanban-actions/project_card-check-movement@master
+              with:
+                  token: ${{ secrets.TOKEN}}
+                  fromColumnId: ${{ github.event.changes.column_id.from }}
+                  fromColumnName: READY FOR REVIEW
+                  toColumnId: ${{ github.event.project_card.column_id }}
+                  toColumnName: READY FOR REVIEW
             - name: Check out the source code
               uses: actions/checkout@v1
               if: steps.check.outputs.isMatch == 'true'
