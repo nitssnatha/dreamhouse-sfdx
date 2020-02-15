@@ -45,7 +45,7 @@ jobs:
               if: steps.check.outputs.isMatch == 'true'
               with:
                   args: force:source:pull --targetusername=scratch-org -f
-                  args: force:source:retrieve -m Profile, PermissionSet
+                  args1: force:source:retrieve -m Profile, PermissionSet
             - name: Commit Git changes
               if: steps.check.outputs.isMatch == 'true'
               shell: bash
