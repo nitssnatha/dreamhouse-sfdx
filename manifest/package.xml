@@ -8,5 +8,9 @@
         <members>*</members>
         <name>PermissionSet</name>
     </type>
+    <type>
+        <members>*</members>
+        <name>CustomObject</name>
+    </type>
     <version>48.0</version>
 </Package>
