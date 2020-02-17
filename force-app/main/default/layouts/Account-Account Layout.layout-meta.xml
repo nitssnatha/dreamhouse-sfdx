@@ -27,6 +27,10 @@
                 <behavior>Edit</behavior>
                 <field>Veer__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Text_fie__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
