@@ -16,4 +16,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           USERNAME=$(git config --global user.email)
-          echo "${USERNAME}""
+          echo "${USERNAME}"
