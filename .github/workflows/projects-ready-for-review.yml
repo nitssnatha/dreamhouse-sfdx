@@ -49,7 +49,7 @@ jobs:
         uses: forcedotcom/salesforcedx-actions@master
         if: steps.check.outputs.isMatch == 'true'
         with:
-          args: sfdx force:source:retrieve -m Profile,PermissionSet
+          args: force:source:retrieve -m Profile,PermissionSet
       - name: Commit Git changes
         if: steps.check.outputs.isMatch == 'true'
         shell: bash
