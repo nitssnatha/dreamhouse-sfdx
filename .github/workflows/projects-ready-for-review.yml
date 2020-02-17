@@ -45,11 +45,6 @@ jobs:
         if: steps.check.outputs.isMatch == 'true'
         with:
           args: force:source:pull --targetusername=scratch-org -f
-      - name: Retrieve Profile/Permission Set changes
-        uses: forcedotcom/salesforcedx-actions@master
-        if: steps.check.outputs.isMatch == 'true'
-        with:
-          args: force:source:retrieve -m Profile,PermissionSet --targetusername=scratch-org
       - name: Commit Git changes
         if: steps.check.outputs.isMatch == 'true'
         shell: bash
